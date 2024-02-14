@@ -1,0 +1,75 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 17px;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(29, 18%, 71%);
+    font-size: 25px;
+}
+
+.profile{
+   background-color: hsl(33, 22%, 59%);
+   margin-top: 10px;
+   padding: 50px;
+   border-radius: 35px;
+}
+
+.profile__avatar{
+    border-radius: 50%;
+    height: 400px;
+    width: 400px;
+    margin-bottom: 10px;
+    
+}
+
+.profile__name{
+    font-size:50px ;
+    margin-bottom: 15px;
+    color: white;
+    text-align: center;
+}
+
+.profile__city{
+    font-size:30px ;
+    color: white;
+    text-align: center;
+}
+
+.profile__description{
+    font-size:30px ;
+    color: white ;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+section button >p{
+    font-size: 20px;
+}
+
+section button:first-child{
+    background-color:  beige;
+}
+
+button{
+    border-radius: 10px;
+    margin: 7px;
+    curh
+}
+button:hover{
+    background: black;
+}
+
+.dos{
+    display: flex;
+    flex-direction: column;
+}
+
